@@ -21,15 +21,21 @@
           Add your email below to stay up-to-date with announcements and our launch deals.
         </p>
         <form>
-          <input type="email" name="email" placeholder="Email Address"/>
-          <button>
-            <img src="./images/icon-arrow.svg" alt="arrow">
-          </button>
+          <div>
+            <input type="text" name="email" id="email" placeholder="Email Address"/>
+            <img src="./images/icon-error.svg" alt="error" class="error" id="error"/>
+            <button id='submit-email'>
+              <img src="./images/icon-arrow.svg" alt="arrow">
+            </button>
+          </div>
+          <span class="warning" id="warning">Please provide a valid email</span>
         </form>
       </div>
     </div>
     <div class="poster">
     </div>
   </div>
+
+  <script src="./script.js"></script>
 </body>
 </html>
